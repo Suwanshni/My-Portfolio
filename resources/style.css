@@ -76,7 +76,7 @@
     transform: scale(2.5); 
 }
 
-#dropdownMenuButton1{
+#dropdownMenuButton1, .dropdown-menu{
     width:100%;
 }
 
