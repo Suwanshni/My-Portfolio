@@ -1,0 +1,109 @@
+*{
+    font-family: Poppins;
+}
+
+.nav{
+    background-image: linear-gradient(to right, rgb(172, 172, 172) , white);
+}
+
+.nav-link{
+    color:rgb(80, 80, 80);
+}
+
+.description-head{
+    font-size: xx-large;
+    text-align: center;
+    color: rgb(80, 80, 80);
+    text-decoration: underline;
+    font-family: Poppins;
+}
+
+.about-me-img{
+    border-radius: 10px;
+}
+
+.description-body{
+    font-size: large;
+    text-align:justify;
+    color: rgb(80, 80, 80);
+    font-family: Poppins;
+}
+
+.description-end{
+    font-size: x-large;
+    text-align: center;
+    color: rgb(60, 60, 60);
+    font-family: Poppins;
+}
+
+.my-intro{
+    font-family: Poppins;
+    font-weight: bolder;
+}
+
+.intro-title{
+    font-weight: bolder;
+    font-family: Poppins;
+    font-size:large;
+}
+
+.intro-info{
+    font-family: Poppins;
+    font-size:large;
+    color: rgb(80, 80, 80);
+    font-weight: bold;
+}
+
+.skill-img{
+    height:80px;
+    width: 80px;
+}
+
+.skill-img2{
+    height:80px;
+    width: 60px;
+}
+
+.certificate-img{
+    height:10%;
+    width:10%;
+    padding-left: 50px;
+}
+
+.certificate-img:hover {
+    -ms-transform: scale(2.5); /* IE 9 */
+    -webkit-transform: scale(2.5); /* Safari 3-8 */
+    transform: scale(2.5); 
+}
+
+#dropdownMenuButton1{
+    width:100%;
+}
+
+.dropdown-item{
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(80, 80, 80);
+}
+
+.contact-img{
+    height:50px;
+}
+
+.contact-info{
+    text-decoration: none;
+    color: rgb(33, 37, 41);
+    font-size: larger;
+    font-family: Poppins;
+}
+
+.contact-info-phoneno{
+    font-size:larger;
+    font-family: Poppins;
+}
+
+.footer-copyright{
+    font-family: Poppins;
+}
