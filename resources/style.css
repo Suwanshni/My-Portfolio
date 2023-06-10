@@ -22,6 +22,10 @@
     border-radius: 10px;
 }
 
+.about-me{
+    background-color: #C0C0C0;
+}
+
 .description-body{
     font-size: large;
     text-align:center;
@@ -29,7 +33,7 @@
     font-family: Poppins;
 }
 
-.description-end{
+.description-head{
     font-size: x-large;
     text-align: center;
     color: rgb(60, 60, 60);
@@ -57,11 +61,27 @@
 .skill-img{
     height:80px;
     width: 80px;
+    margin-left: 20%;
+    margin-top: 25px;
+}
+
+.skill-img:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
 }
 
 .skill-img2{
     height:80px;
     width: 60px;
+    margin-left: 21%;
+    margin-top: 25px;
+}
+
+.skill-img2:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
 }
 
 .certificate-img{
@@ -70,10 +90,24 @@
     padding-left: 50px;
 }
 
-.certificate-img:hover {
-    -ms-transform: scale(2.5); /* IE 9 */
-    -webkit-transform: scale(2.5); /* Safari 3-8 */
-    transform: scale(2.5); 
+.card{
+    background-color: #47424238;
+}
+
+.card-col{
+    
+}
+
+li{
+    display: inline; 
+}
+
+.project-btn-code{
+    background-color: rgb(41, 114, 170);
+}
+
+.project-btn-project{
+    background-color: rgb(55, 55, 55);
 }
 
 #dropdownMenuButton1, .dropdown-menu{
