@@ -1,273 +1,422 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Suwanshni's Portfolio</title>
-    <link rel="icon" type="images/x-icon" href="icon.png" class="icon"/>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suwanshni's Portfolio</title>
+  <link rel="icon" type="images/x-icon" href="icon.png" class="icon" />
 
-    <!--Poppins Font-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <!--Poppins Font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
-    <!--Bootstrap's CSS-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-     rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!--Bootstrap's CSS-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <!--CSS-->
-    <link href="resources/style.css" rel="stylesheet">
+  <!--CSS-->
+  <link href="resources/style.css" rel="stylesheet">
 
-    <!--Adding Font-awesome--> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--Adding Font-awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
 <body>
-    <!--Navigation Bar-->
-    <ul class="nav nav-underline justify-content-center navbar-expand-lg sticky-top">
-      <li class="nav-item">
-        <a class="nav-link active" aria-current="page" target="_top" href="#">HOME</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#about-me">ABOUT ME</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#skills">SKILLS</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#certifications">CERTIFICATIONS</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#projects">PROJECTS</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#contact">CONTACT</a>
-      </li>
-    </ul>
+  <!--Navigation Bar-->
+  <ul class="nav nav-underline justify-content-center navbar-expand-lg sticky-top">
+    <li class="nav-item">
+      <a><img src="icon.png" height="40px" width="80px"></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" target="_top" href="#">HOME</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#about-me">ABOUT ME</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#skills">SKILLS</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#certifications">CERTIFICATIONS</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#projects">PROJECTS</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#contact">CONTACT</a>
+    </li>
+  </ul>
 
-    <!--Autoplaying carousels-->
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" id="head">
-        <div class="carousel-inner">
-          <div class="carousel-item active pic">
-            <img src="resources/images/Me.png" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="resources/images/Me2.png" class="d-block w-100" alt="...">
-          </div>
-        </div>
+  <!--Autoplaying carousels-->
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" id="head">
+    <div class="carousel-inner">
+      <div class="carousel-item active pic">
+        <img src="resources/images/Me.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="resources/images/Me2.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+  </div><br>
+
+  <!--DESCRIPTION-->
+  <h1 class="description-head">DESCRIPTION</h1><br>
+  <p class="description-body">My portfolio website is a curated showcase of my creative endeavors, where I present a
+    diverse range of projects and
+    accomplishments. Through an intuitive and visually appealing interface, visitors can explore my work. Whether you're
+    a potential client, collaborator,
+    or simply an admirer of creative endeavors, my portfolio website serves as a comprehensive representation of my
+    skills, expertise, and passion for what I do.</p>
+  <p class="description-end">This website is completely dedicated to my Skills, Projects, Works, etc.</p>
+
+  <!--Download my CV-->
+  <center>
+    <button type="button" class="btn btn-secondary btn-lg" onclick="window.open('resources/CV.pdf')">My CV</button>
+  </center><br>
+
+  <!--About Me-->
+  <h1 class="description-head" id="about-me">ABOUT ME</h1>
+  <div class="container-fluid about-me"><br>
+    <div class="row">
+      <div class="col-xl-5 col-lg-5 col-md-5">
+        <center>
+          <img src="resources/images/about-me-img.png" alt="My Image" class="img-fluid about-me-img">
+        </center>
+      </div>
+      <div class="col-xl-6 col-lg-6 col-md-6">
+        <p class="my-intro">MY INTRO</p>
+        <p class="description-body">I'm an enthusiastic, optimistic and curious person who loves to explore, learn and
+          implement new skills.
+          <br>I embrace challenges and difficulties as it always teaches me something new everytime.
+        </p>
+        <table>
+          <tr>
+            <td class="intro-title">Name :&nbsp;</td>
+            <td class="intro-info">&nbsp;Suwanshni</td>
+          </tr>
+          <tr>
+            <td class="intro-title">Qualification :&nbsp;</td>
+            <td class="intro-info">&nbsp;BE E&TC</td>
+          </tr>
+          <tr>
+            <td class="intro-title">Address :&nbsp;</td>
+            <td class="intro-info">&nbsp;MAHARASHTRA, INDIA</td>
+          </tr>
+          <tr>
+            <td class="intro-title">Courses :&nbsp;</td>
+            <td class="intro-info">&nbsp;Full Stack Web Developer (PHP with MySQL), RCPL</td>
+          </tr>
+          <tr>
+            <td class="intro-title">&nbsp;</td>
+            <td class="intro-info">&nbsp;Junior Full Stack Java Developer, Vinsys</td>
+          </tr>
+          <tr>
+            <td class="intro-title">Hobbies :&nbsp;</td>
+            <td class="intro-info">&nbsp;Teaching Maths</td>
+          </tr>
+          <tr>
+            <td class="intro-title">&nbsp;</td>
+            <td class="intro-info">&nbsp;Learning new Skills</td>
+          </tr>
+          <tr>
+            <td class="intro-title">&nbsp;</td>
+            <td class="intro-info">&nbsp;Self-Grooming</td>
+          </tr>
+          <tr>
+            <td class="intro-title">&nbsp;</td>
+            <td class="intro-info">&nbsp;Poetry</td>
+          </tr>
+          <tr>
+            <td class="intro-title">Strength :&nbsp;</td>
+            <td class="intro-info">&nbsp;Will Power & Communication</td>
+          </tr>
+          <tr>
+            <td class="intro-title">Weakness :&nbsp;</td>
+            <td class="intro-info">&nbsp;Detail Oriented</td>
+          </tr>
+        </table>
+      </div>
     </div><br>
+  </div><br>
 
-    <!--DESCRIPTION-->
-    <h1 class="description-head">DESCRIPTION</h1><br>
-    <p class="description-body">My portfolio website is a curated showcase of my creative endeavors, where I present a diverse range of projects and 
-        accomplishments. Through an intuitive and visually appealing interface, visitors can explore my work. Whether you're a potential client, collaborator, 
-        or simply an admirer of creative endeavors, my portfolio website serves as a comprehensive representation of my skills, expertise, and passion for what I do.</p>
-    <p class="description-end">This website is completely dedicated to my Skills, Projects, Works, etc.</p>
+  <!--SKILLS-->
+  <h1 class="description-head" id="skills">SKILLS</h1><br>
+  <img src="resources/images/Skill_Image/html.png" class="skill-img">
+  <img src="resources/images/Skill_Image/css.png" class="skill-img">
+  <img src="resources/images/Skill_Image/javascript.png" class="skill-img">
+  <img src="resources/images/Skill_Image/git.png" class="skill-img">
+  <img src="resources/images/Skill_Image/bootstrap.png" class="skill-img">
+  <img src="resources/images/Skill_Image/react.png" class="skill-img">
+  <img src="resources/images/Skill_Image/sql.png" class="skill-img">
+  <img src="resources/images/Skill_Image/php.png" class="skill-img">
+  <img src="resources/images/Skill_Image/c.png" class="skill-img">
+  <img src="resources/images/Skill_Image/cpp.png" class="skill-img">
+  <img src="resources/images/Skill_Image/scrum.png" class="skill-img">
+  <img src="resources/images/Skill_Image/Comm.png" class="skill-img">
+  <img src="resources/images/Skill_Image/gm.png" class="skill-img">
+  <img src="resources/images/Skill_Image/tw.png" class="skill-img">
+  <img src="resources/images/Skill_Image/tm.png" class="skill-img">
+  <img src="resources/images/Skill_Image/leadership.png" class="skill-img">
+  <img src="resources/images/Skill_Image/java.png" class="skill-img2">
+  <img src="resources/images/Skill_Image/python.png" class="skill-img2">
+  <br><br>
 
-    <!--Download my CV-->
-    <center>
-      <button type="button" class="btn btn-secondary btn-lg" onclick="window.open('resources/CV.pdf')">My CV</button>
-    </center><br>
+  <!--CERTIFICATIONS-->
+  <h1 class="description-head" id="certifications">CERTIFICATIONS</h1><br>
+  <a href="resources/Certificates/Code_Foundations.jpg" target="_blank"><img
+      src="resources/Certificates/Code_Foundations.jpg" class="certificate-img"></a>
+  <a href="resources/Certificates/HTML.jpg" target="_blank"><img src="resources/Certificates/HTML.jpg"
+      class="certificate-img"></a>
+  <a href="resources/Certificates/CSS.jpg" target="_blank"><img src="resources/Certificates/CSS.jpg"
+      class="certificate-img"></a>
+  <a href="resources/Certificates/Command Lines.jpg" target="_blank"><img src="resources/Certificates/Command Lines.jpg"
+      class="certificate-img"></a>
+  <a href="resources/Certificates/Git.jpg" target="_blank"><img src="resources/Certificates/Git.jpg"
+      class="certificate-img"></a>
+  <a href="resources/Certificates/Bash.jpg" target="_blank"><img src="resources/Certificates/Bash.jpg"
+      class="certificate-img"></a>
+  <a href="resources/Certificates/CSS_Flexbox_Grid.jpg" target="_blank"><img
+      src="resources/Certificates/CSS_Flexbox_Grid.jpg" class="certificate-img"></a>
+  <a href="resources/Certificates/CSS_Transitions_Animations.jpg" target="_blank"><img
+      src="resources/Certificates/CSS_Transitions_Animations.jpg" class="certificate-img"></a>
+  <a href="resources/Certificates/CSS_Browser_Compatibility.jpg" target="_blank"><img
+      src="resources/Certificates/CSS_Browser_Compatibility.jpg" class="certificate-img"></a>
+  <a href="resources/Certificates/SCRUM.png" target="_blank"><img src="resources/Certificates/SCRUM.png"
+      class="certificate-img"></a>
+  <a href="resources/Certificates/JavaScript.jpg" target="_blank"><img src="resources/Certificates/JavaScript.jpg"
+      class="certificate-img"></a>
+  <a href="resources/Certificates/Build_a_website_page.jpg" target="_blank"><img
+      src="resources/Certificates/Build_a_website_page.jpg" class="certificate-img"></a>
+  <a href="resources/Certificates/Intermediate_JavaScript.jpg" target="_blank"><img
+      src="resources/Certificates/Intermediate_JavaScript.jpg" class="certificate-img"></a>
+  <a href="resources/Certificates/FSWD.jpg" target="_blank"><img src="resources/Certificates/FSWD.jpg"
+      class="certificate-img"></a>
+  <a href="resources/Certificates/Java.jpg" target="_blank"><img src="resources/Certificates/Java.jpg"
+      class="certificate-img"></a><br>
 
-    <!--About Me-->
-    <h1 class="description-head" id="about-me">ABOUT ME</h1>
-    <div class="container-fluid about-me"><br>
-        <div class="row">
-          <div class="col-xl-5 col-lg-5 col-md-5">
-            <center>
-            <img src="resources/images/about-me-img.png" alt="My Image" class="img-fluid about-me-img">
-          </center>
-          </div>
-          <div class="col-xl-6 col-lg-6 col-md-6">
-            <p class="my-intro">MY INTRO</p>
-            <p class="description-body">I'm an enthusiastic, optimistic and curious person who loves to explore, learn and implement new skills. 
-              <br>I embrace challenges and difficulties as it always teaches me something new everytime.</p>
-            <table>
-              <tr><td class="intro-title">Name :&nbsp;</td><td class="intro-info">&nbsp;Suwanshni</td></tr>
-              <tr><td class="intro-title">Qualification :&nbsp;</td><td class="intro-info">&nbsp;BE E&TC</td></tr>
-              <tr><td class="intro-title">Address :&nbsp;</td><td class="intro-info">&nbsp;MAHARASHTRA, INDIA</td></tr>
-              <tr><td class="intro-title">Courses :&nbsp;</td><td class="intro-info">&nbsp;Full Stack Web Developer (PHP with MySQL), RCPL</td></tr>
-              <tr><td class="intro-title">&nbsp;</td><td class="intro-info">&nbsp;Junior Full Stack Java Developer, Vinsys</td></tr>
-              <tr><td class="intro-title">Hobbies :&nbsp;</td><td class="intro-info">&nbsp;Teaching Maths</td></tr>
-              <tr><td class="intro-title">&nbsp;</td><td class="intro-info">&nbsp;Learning new Skills</td></tr>
-              <tr><td class="intro-title">&nbsp;</td><td class="intro-info">&nbsp;Self-Grooming</td></tr>
-              <tr><td class="intro-title">&nbsp;</td><td class="intro-info">&nbsp;Poetry</td></tr>
-              <tr><td class="intro-title">Strength :&nbsp;</td><td class="intro-info">&nbsp;Will Power & Communication</td></tr>
-              <tr><td class="intro-title">Weakness :&nbsp;</td><td class="intro-info">&nbsp;Detail Oriented</td></tr>
-            </table>          
-          </div>
-        </div><br>
-      </div><br>
-
-      <!--SKILLS-->
-      <h1 class="description-head" id="skills">SKILLS</h1><br>
-      <img src="resources/images/Skill_Image/html.png" class="skill-img">
-      <img src="resources/images/Skill_Image/css.png" class="skill-img">
-      <img src="resources/images/Skill_Image/javascript.png" class="skill-img"> 
-      <img src="resources/images/Skill_Image/git.png" class="skill-img">
-      <img src="resources/images/Skill_Image/bootstrap.png" class="skill-img">
-      <img src="resources/images/Skill_Image/react.png" class="skill-img">
-      <img src="resources/images/Skill_Image/sql.png" class="skill-img">
-      <img src="resources/images/Skill_Image/php.png" class="skill-img">
-      <img src="resources/images/Skill_Image/c.png" class="skill-img">
-      <img src="resources/images/Skill_Image/cpp.png" class="skill-img">
-      <img src="resources/images/Skill_Image/scrum.png" class="skill-img">
-      <img src="resources/images/Skill_Image/Comm.png" class="skill-img"> 
-      <img src="resources/images/Skill_Image/gm.png" class="skill-img">       
-      <img src="resources/images/Skill_Image/tw.png" class="skill-img"> 
-      <img src="resources/images/Skill_Image/tm.png" class="skill-img">
-      <img src="resources/images/Skill_Image/leadership.png" class="skill-img">
-      <img src="resources/images/Skill_Image/java.png" class="skill-img2">
-      <img src="resources/images/Skill_Image/python.png" class="skill-img2">
-      <br><br>
-
-      <!--CERTIFICATIONS-->
-      <h1 class="description-head" id="certifications">CERTIFICATIONS</h1><br>
-      <a href="resources/Certificates/Code_Foundations.jpg" target="_blank"><img src="resources/Certificates/Code_Foundations.jpg" class="certificate-img"></a>
-      <a href="resources/Certificates/HTML.jpg" target="_blank"><img src="resources/Certificates/HTML.jpg" class="certificate-img"></a>
-      <a href="resources/Certificates/CSS.jpg" target="_blank"><img src="resources/Certificates/CSS.jpg" class="certificate-img"></a>
-      <a href="resources/Certificates/Command Lines.jpg" target="_blank"><img src="resources/Certificates/Command Lines.jpg" class="certificate-img"></a>
-      <a href="resources/Certificates/Git.jpg" target="_blank"><img src="resources/Certificates/Git.jpg" class="certificate-img"></a>
-      <a href="resources/Certificates/Bash.jpg" target="_blank"><img src="resources/Certificates/Bash.jpg" class="certificate-img"></a>
-      <a href="resources/Certificates/CSS_Flexbox_Grid.jpg" target="_blank"><img src="resources/Certificates/CSS_Flexbox_Grid.jpg" class="certificate-img"></a>
-      <a href="resources/Certificates/CSS_Transitions_Animations.jpg" target="_blank"><img src="resources/Certificates/CSS_Transitions_Animations.jpg" class="certificate-img"></a>
-      <a href="resources/Certificates/CSS_Browser_Compatibility.jpg" target="_blank"><img src="resources/Certificates/CSS_Browser_Compatibility.jpg" class="certificate-img"></a>
-      <a href="resources/Certificates/SCRUM.png" target="_blank"><img src="resources/Certificates/SCRUM.png" class="certificate-img"></a>
-      <a href="resources/Certificates/JavaScript.jpg" target="_blank"><img src="resources/Certificates/JavaScript.jpg" class="certificate-img"></a>
-      <a href="resources/Certificates/Build_a_website_page.jpg" target="_blank"><img src="resources/Certificates/Build_a_website_page.jpg" class="certificate-img"></a>
-      <a href="resources/Certificates/Intermediate_JavaScript.jpg" target="_blank"><img src="resources/Certificates/Intermediate_JavaScript.jpg" class="certificate-img"></a>
-      <a href="resources/Certificates/FSWD.jpg" target="_blank"><img src="resources/Certificates/FSWD.jpg" class="certificate-img"></a>
-      <a href="resources/Certificates/Java.jpg" target="_blank"><img src="resources/Certificates/Java.jpg" class="certificate-img"></a><br>
-
-    <!--PROJECTS-->
-    <h1 class="description-head" id="projects">PROJECTS</h1>
-    
-
-        <div class="card" style="width: 15rem;">
-          <div class="card-body">
-            <h5 class="card-title" align="center">COLMAR PROJECT</h5>
-            <h6 class="card-subtitle mb-2 text-muted">
-              <ul>
-                <li>
-                  HTML +
-                </li>
-                <li>
-                  CSS +
-                </li>
-                <li>
-                  Git
-                </li>
-              </ul>
-            </h6>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="https://github.com/Suwanshni/Colmar-Academy_Codecademy-Project" class="btn btn-secondary project-btn-code">&#60;CODE/&#62;</a>
-            <a href="https://suwanshni.github.io/Colmar-Academy_Codecademy-Project/" class="btn btn-secondary project-btn-project">&#60;Project/&#62;</a>
-          </div>
-        </div>
-    
-    
-
+  <!--PROJECTS-->
+  <h1 class="description-head" id="projects">PROJECTS</h1>
+  <div class="card-group">
     <!--COLMAR PROJECT-->
-    <div class="dropdown">
-      <button class="btn btn-secondary" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-        COLMAR PROJECT
-      </button>
-        <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton1">
-          <li><a class="dropdown-item" href="" target="_blank">About</a></li>
-          <li><a class="dropdown-item" href="" target="_blank">View</a></li>
-        </ul>
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">COLMAR PROJECT</h5>
+        <h6 class="card-subtitle mb-2">
+          <ul><strong>
+              <li style="color:#c53612">HTML
+            </strong></li><strong>
+              <li style="color:blue">CSS
+            </strong><strong></li>
+              <li>Git</li>
+            </strong></ul>
+        </h6>
+        <p class="card-text">This is a static website implemented by using HTML and CSS. And this website is deployed by
+          using GitHub</p>
+        <a href="https://github.com/Suwanshni/Colmar-Academy_Codecademy-Project" class="btn btn-secondary project-btn-code" target="_blank">&#60;CODE/&#62;</a>
+        <a href="https://suwanshni.github.io/Colmar-Academy_Codecademy-Project/" class="btn btn-secondary project-btn-project" target="_blank">&#60;PROJECT&#62;</a>
+      </div>
     </div>
 
     <!--EXCURSION PROJECT-->
-    <div class="dropdown">
-      <button class="btn btn-secondary" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-        EXCURSION PROJECT
-      </button>
-        <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton1">
-          <li><a class="dropdown-item" href="https://github.com/Suwanshni/Excursion-Codecademy_Project" target="_blank">About</a></li>
-          <li><a class="dropdown-item" href="https://suwanshni.github.io/Excursion-Codecademy_Project/" target="_blank">View</a></li>
-        </ul>
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">EXCURSION PROJECT</h5>
+        <h6 class="card-subtitle mb-2">
+          <ul><strong>
+              <li style="color:#c53612">HTML
+            </strong></li><strong>
+              <li style="color:blue">CSS
+            </strong><strong></li>
+              <li>Git</li>
+            </strong></ul>
+        </h6>
+        <p class="card-text">This is a static website implemented by using HTML and CSS. And this website is deployed by
+          using GitHub</p>
+        <a href="https://github.com/Suwanshni/Excursion-Codecademy_Project" target="_blank"
+          class="btn btn-secondary project-btn-code">&#60;CODE/&#62;</a>
+        <a href="https://suwanshni.github.io/Excursion-Codecademy_Project/" target="_blank"
+          class="btn btn-secondary project-btn-project">&#60;PROJECT&#62;</a>
+      </div>
     </div>
 
     <!--DASMOTO PROJECT-->
-    <div class="dropdown">
-      <button class="btn btn-secondary" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-        DASMOTO PROJECT
-      </button>
-        <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton1">
-          <li><a class="dropdown-item" href="https://github.com/Suwanshni/Dasmoto-Codecademy_Project" target="_blank">About</a></li>
-          <li><a class="dropdown-item" href="https://suwanshni.github.io/Dasmoto-Codecademy_Project/" target="_blank">View</a></li>
-        </ul>
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">DASMOTO PROJECT</h5>
+        <h6 class="card-subtitle mb-2">
+          <ul><strong>
+              <li style="color:#c53612">HTML
+            </strong></li><strong>
+              <li style="color:blue">CSS
+            </strong><strong></li>
+              <li>Git</li>
+            </strong></ul>
+        </h6>
+        <p class="card-text">This is a static website implemented by using HTML and CSS. And this website is deployed by
+          using GitHub</p>
+        <a href="https://github.com/Suwanshni/Dasmoto-Codecademy_Project" target="_blank"
+          class="btn btn-secondary project-btn-code">&#60;CODE/&#62;</a>
+        <a href="https://suwanshni.github.io/Dasmoto-Codecademy_Project/" target="_blank"
+          class="btn btn-secondary project-btn-project">&#60;PROJECT&#62;</a>
+      </div>
     </div>
+  </div>
 
+  <div class="card-group">
     <!--SHION e-COMMERCE WEBSITE-->
-    <div class="dropdown">
-      <button class="btn btn-secondary" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-        SHION e-COMMERCE WEBSITE
-      </button>
-        <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton1">
-          <li><a class="dropdown-item" href="https://github.com/Suwanshni/Shion-Online_Shopping" target="_blank">About</a></li>
-          <li><a class="dropdown-item" href="https://suwanshni.github.io/Shion-Online_Shopping/" target="_blank">View</a></li>
-        </ul>
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">SHION e-COMMERCE WEBSITE</h5>
+        <h6 class="card-subtitle mb-2">
+          <ul><strong>
+              <li style="color:#c53612">HTML
+            </strong></li><strong>
+              <li style="color:blue">CSS
+            </strong><strong></li>
+              <li>Git</li>
+            </strong></ul>
+        </h6>
+        <p class="card-text">This is a static website implemented by using HTML and CSS. And this website is deployed by
+          using GitHub</p>
+        <a href="https://github.com/Suwanshni/Shion-Online_Shopping" class="btn btn-secondary project-btn-code" target="_blank">&#60;CODE/&#62;</a>
+        <a href="https://suwanshni.github.io/Shion-Online_Shopping/" class="btn btn-secondary project-btn-project" target="_blank">&#60;PROJECT&#62;</a>
+      </div>
     </div>
 
     <!--TRIBUTE PAGE-->
-    <div class="dropdown">
-      <button class="btn btn-secondary" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-        TRIBUTE PAGE
-      </button>
-        <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton1">
-          <li><a class="dropdown-item" href="https://github.com/Suwanshni/Tribute-Page" target="_blank">About</a></li>
-          <li><a class="dropdown-item" href="https://suwanshni.github.io/Tribute-Page/" target="_blank">View</a></li>
-        </ul>
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">TRIBUTE PAGE</h5>
+        <h6 class="card-subtitle mb-2">
+          <ul><strong>
+              <li style="color:#c53612">HTML
+            </strong></li><strong>
+              <li style="color:blue">CSS
+            </strong><strong></li>
+              <li>Git</li>
+            </strong></ul>
+        </h6>
+        <p class="card-text">This is a static website implemented by using HTML and CSS. And this website is deployed by
+          using GitHub</p>
+        <a href="https://github.com/Suwanshni/Tribute-Page" class="btn btn-secondary project-btn-code" target="_blank">&#60;CODE/&#62;</a>
+        <a href="https://suwanshni.github.io/Tribute-Page/" class="btn btn-secondary project-btn-project" target="_blank">&#60;PROJECT&#62;</a>
+      </div>
     </div>
 
     <!--RESTAURANT WEBSITE-->
-    <div class="dropdown">
-      <button class="btn btn-secondary" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-        RESTAURANT WEBSITE
-      </button>
-        <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton1">
-          <li><a class="dropdown-item" href="https://github.com/Suwanshni/Restaurant-Website" target="_blank">About</a></li>
-          <li><a class="dropdown-item" href="https://suwanshni.github.io/Restaurant-Website/" target="_blank">View</a></li>
-        </ul>
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">RESTAURANT PAGE</h5>
+        <h6 class="card-subtitle mb-2">
+          <ul><strong>
+              <li style="color:#c53612">HTML
+            </strong></li><strong>
+              <li style="color:blue">CSS
+            </strong><strong></li>
+              <li>Git</li>
+            </strong></ul>
+        </h6>
+        <p class="card-text">This is a static website implemented by using HTML and CSS. And this website is deployed by
+          using GitHub</p>
+        <a href="https://github.com/Suwanshni/Restaurant-Website" class="btn btn-secondary project-btn-code" target="_blank">&#60;CODE/&#62;</a>
+        <a href="https://suwanshni.github.io/Restaurant-Website/" class="btn btn-secondary project-btn-project" target="_blank">&#60;PROJECT&#62;</a>
+      </div>
     </div>
+  </div>
 
+  <div class="card-group">
     <!--TEA COZY PROJECT-->
-    <div class="dropdown">
-      <button class="btn btn-secondary" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-        TEA COZY PROJECT
-      </button>
-        <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton1">
-          <li><a class="dropdown-item" href="https://github.com/Suwanshni/Tea-Cozy_Codecedemy-Project" target="_blank">About</a></li>
-          <li><a class="dropdown-item" href="https://suwanshni.github.io/Tea-Cozy_Codecedemy-Project/" target="_blank">View</a></li>
-        </ul>
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">TEA COZY PROJECT</h5>
+        <h6 class="card-subtitle mb-2">
+          <ul><strong>
+              <li style="color:#c53612">HTML
+            </strong></li><strong>
+              <li style="color:blue">CSS
+            </strong><strong></li>
+              <li>Git</li>
+            </strong></ul>
+        </h6>
+        <p class="card-text">This is a static website implemented by using HTML and CSS. And this website is deployed by
+          using GitHub</p>
+        <a href="https://github.com/Suwanshni/Tea-Cozy_Codecedemy-Project" class="btn btn-secondary project-btn-code" target="_blank">&#60;CODE/&#62;</a>
+        <a href="https://suwanshni.github.io/Tea-Cozy_Codecedemy-Project/" class="btn btn-secondary project-btn-project" target="_blank">&#60;PROJECT&#62;</a>
+      </div>
     </div>
-    <br>
 
-    <!--CONTACT-->
-    <h1 class="description-head" id="contact">CONTACT INFO</h1>
-    <footer>
-      <center>
-        <table><br>
-          <tr><td><img src="resources/images/Logo_Image/phone-solid.png" class="contact-img"></td><td class="contact-info-phoneno">&nbsp;+91-6201014608</td></tr>
-          <tr><td><img src="resources/images/Logo_Image/mail.png" class="contact-img"></td><td><a href = "mailto: suwanshni@gmail.com" class="contact-info">&nbsp;Mail Id</a></td></tr>
-          <tr><td><img src="resources/images/Logo_Image/linkedin.png" class="contact-img"></td><td><a href = "https://www.linkedin.com/in/suwanshni-7b4bb0219/?jobid=1234" class="contact-info" target="_blank">&nbsp;LinkedIn</a></td></tr>
-          <tr><td><img src="resources/images/Logo_Image/github.png" class="contact-img"></td><td><a href = "https://github.com/Suwanshni/" class="contact-info" target="_blank">&nbsp;GitHub</a></td></tr>
-        </table><br>
-        <!--<a href = "#head" class="contact-info"><img src="resources/images/Logo_Image/arrow-up.png" class="contact-img"></a>-->
-        <p class="footer-copyright">Copyright &#169;2023 All rights reserved<br>
+    <!--PORTFOLIO WEBSITE-->
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">PORTFOLIO WEBSITE</h5>
+        <h6 class="card-subtitle mb-2">
+          <ul><strong>
+              <li style="color:#c53612">HTML
+            </strong></li><strong>
+              <li style="color:blue">CSS
+            </strong><strong></li>
+              <li>Git</li>
+            </strong></ul>
+        </h6>
+        <p class="card-text">This is a static website implemented by using HTML and CSS. And this website is deployed by
+          using GitHub</p>
+        <a href="https://github.com/Suwanshni/Tea-Cozy_Codecedemy-Project" class="btn btn-secondary project-btn-code" target="_blank">&#60;CODE/&#62;</a>
+        <a href="https://suwanshni.github.io/Tea-Cozy_Codecedemy-Project/" class="btn btn-secondary project-btn-project" target="_blank">&#60;PROJECT&#62;</a>
+      </div>
+    </div>
+
+    <!--CALCULATOR-->
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">CALCULATOR</h5>
+        <h6 class="card-subtitle mb-2">
+          <ul><strong>
+              <li style="color:#c53612">HTML
+            </strong></li><strong>
+              <li style="color:blue">CSS
+            </strong><strong></li>
+              <li>Git</li>
+            </strong></ul>
+        </h6>
+        <p class="card-text">This is a static website implemented by using HTML and CSS. And this website is deployed by
+          using GitHub</p>
+        <a href="https://github.com/Suwanshni/Tea-Cozy_Codecedemy-Project" class="btn btn-secondary project-btn-code" target="_blank">&#60;CODE/&#62;</a>
+        <a href="https://suwanshni.github.io/Tea-Cozy_Codecedemy-Project/" class="btn btn-secondary project-btn-project" target="_blank">&#60;PROJECT&#62;</a>
+      </div>
+    </div>
+  </div>
+
+  <!--CONTACT-->
+  <h1 class="description-head" id="contact">CONTACT INFO</h1>
+
+  <footer class="contact">
+    <center>
+      <a href="tel:8882192787"><img src="resources/images/Logo_Image/phone-solid.png" class="contact-img"></a>
+      <a href="mailto: suwanshni@gmail.com"><img src="resources/images/Logo_Image/mail.png" class="contact-img"></a>
+      <a href="https://www.linkedin.com/in/suwanshni-7b4bb0219/?jobid=1234"
+              target="_blank"><img src="resources/images/Logo_Image/linkedin.png" class="contact-img"></a>
+      <a href="https://github.com/Suwanshni/" target="_blank"><img src="resources/images/Logo_Image/github.png" class="contact-img"></a>
+    </center>
+  </footer>
+
+  <footer><br>
+    <center>
+      <p class="footer-copyright">Copyright &#169;2023 All rights reserved<br>
         This template is made with lots of &#10084; by Suwanshni</p><br>
     </center>
-    </footer>
+  </footer>
 
-    <!--BootStrap's JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <!--BootStrap's JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
 
-    <!--JavaScript-->
-    <script src="resources/script.js" type="text/javascript"></script>
+  <!--JavaScript-->
+  <script src="resources/script.js" type="text/javascript"></script>
 </body>
+
 </html>

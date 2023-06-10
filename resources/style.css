@@ -33,7 +33,7 @@
     font-family: Poppins;
 }
 
-.description-head{
+.description-end{
     font-size: x-large;
     text-align: center;
     color: rgb(60, 60, 60);
@@ -88,18 +88,30 @@
     height:120px;
     width:220px;
     padding-left: 50px;
+    padding-top: 10px;
 }
 
 .card{
-    background-color: #47424238;
+    background-image: linear-gradient(to right, rgb(191, 191, 191) , rgb(110, 110, 110));
+    margin: 20px 60px 20px 50px;
+    border:none;
 }
 
-.card-col{
-    
+.card-subtitle{
+    text-align: center;    
+}
+
+.card-title{
+    font-weight: bolder;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
 }
 
 li{
-    display: inline; 
+    display:ruby-base-container;
 }
 
 .project-btn-code{
@@ -107,8 +119,34 @@ li{
 }
 
 .project-btn-project{
-    background-color: rgb(55, 55, 55);
+    background-color: teal;
 }
+
+.project-btn-code:after, .project-btn-project:after{
+    right: -20px;
+    transition: 0.5s;
+}
+
+.project-btn-code:hover{
+    padding-right: 25px;
+    background-color: rgb(25, 70, 105);
+}
+
+.project-btn-project:hover{
+    padding-right: 25px;
+    background-color:  rgb(3, 87, 87);
+}
+
+.project-btn-code:active{
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.project-btn-project :active{
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
 
 #dropdownMenuButton1, .dropdown-menu{
     width:100%;
@@ -118,24 +156,13 @@ li{
     text-align: center;
 }
 
-footer{
-    background-color: #6c757d;
+.contact{
+    background-color: rgb(172, 172, 172);
 }
 
 .contact-img{
     height:50px;
-}
-
-.contact-info{
-    text-decoration: none;
-    color: rgb(33, 37, 41);
-    font-size: larger;
-    font-family: Poppins;
-}
-
-.contact-info-phoneno{
-    font-size:larger;
-    font-family: Poppins;
+    margin: 20px 20px 20px 20px;
 }
 
 .footer-copyright{
