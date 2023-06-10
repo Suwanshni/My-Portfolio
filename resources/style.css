@@ -16,6 +16,7 @@
     color: rgb(80, 80, 80);
     text-decoration: underline;
     font-family: Poppins;
+    margin-top: 15px;
 }
 
 .about-me-img{
@@ -79,9 +80,9 @@
 }
 
 .skill-img2:hover {
-    -ms-transform: scale(1.5); /* IE 9 */
-    -webkit-transform: scale(1.5); /* Safari 3-8 */
-    transform: scale(1.5); 
+    -ms-transform: scale(2); /* IE 9 */
+    -webkit-transform: scale(2); /* Safari 3-8 */
+    transform: scale(2); 
 }
 
 .certificate-img{
@@ -106,13 +107,10 @@
     text-align: center;
 }
 
-ul{
-    list-style: none;
+strong{
+    text-align: center;    
 }
 
-li{
-    display:ruby-base-container;
-}
 
 .project-btn-code{
     background-color: rgb(41, 114, 170);
@@ -147,15 +145,6 @@ li{
     transform: translateY(4px);
 }
 
-
-#dropdownMenuButton1, .dropdown-menu{
-    width:100%;
-}
-
-.dropdown-item{
-    text-align: center;
-}
-
 .contact{
     background-color: rgb(172, 172, 172);
 }
@@ -163,7 +152,15 @@ li{
 .contact-img{
     height:50px;
     margin: 20px 20px 20px 20px;
+    border-radius: 20px;
 }
+
+.contact-img:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+
 
 .footer-copyright{
     font-family: Poppins;
